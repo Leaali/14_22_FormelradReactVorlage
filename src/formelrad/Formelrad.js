@@ -35,6 +35,7 @@ export default function Formelrad() {
             setValues(values => ({ ...values, u: values.i * values.r }));
             setValues(values => ({ ...values, p: values.i * values.i * values.r }));
         }
+    }
     
 
     return (
